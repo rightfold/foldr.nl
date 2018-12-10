@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+    /*
+    background-image: linear-gradient(silver 0px, white 1px, white 25px);
+    background-size: 1px 26px;
+    */
+    color: black;
+    font-family: 'Noto Serif SC', serif;
+    font-size: 16px;
+    margin: 26px;
+    text-rendering: optimizeLegibility;
+}
+
+#container {
+    display: grid;
+    grid-gap: 26px;
+    grid-template-columns: 120px 480px 480px 120px;
+    margin: 0 auto;
+    width: calc(120px + 26px + 480px + 26px + 480px + 26px + 120px);
+}
+
+#container > header {
+    grid-area: 1 / 2 / 2 / 4;
+}
+
+#container > header > h1 {
+    font-size: 72px;
+    font-weight: normal;
+    line-height: 78px;
+    margin: 78px 0;
+    text-align: center;
+}
+
+#container > nav {
+    grid-area: 2 / 4 / 3 / 5;
+}
+
+#container > nav > a {
+    color: salmon;
+    display: block;
+    line-height: 26px;
+    text-decoration: none;
+    text-indent: 26px;
+    text-transform: lowercase;
+    transition: text-indent ease-in-out 0.1s;
+}
+
+#container > nav > a:hover,
+#container > nav > a#active {
+    text-indent: 0;
+}
+
+#container > article {
+    grid-area: 2 / 3 / 3 / 4;
+}
+
+#container > article > p {
+    hyphens: auto;
+    line-height: 26px;
+    margin: 26px 0;
+    text-align: justify;
+}
+
+#container > article > p:first-child {
+    margin-top: 0;
+}
+
+#container > aside {
+    grid-area: 2 / 2 / 3 / 3;
+}
