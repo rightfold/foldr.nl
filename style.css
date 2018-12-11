@@ -81,6 +81,11 @@ body {
     text-align: justify;
 }
 
+#container > article > p > abbr {
+	font-variant-caps: all-small-caps;
+	text-decoration: none;
+}
+
 #container > article > p:first-child {
     margin-top: 0;
 }
