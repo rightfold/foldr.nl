@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<!DOCTYPE page [
+    <!ENTITY eacute "é">
+]>
+<page id="resume">
+    <article>
+        <p>I still have to put something on this page.</p>
+    </article>
+    <aside>
+    </aside>
+</page>

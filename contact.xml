@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<!DOCTYPE page [
+    <!ENTITY eacute "é">
+]>
+<page id="contact">
+    <article>
+        <p>If you have any questions, please send me an
+        <a href="mailto:rightfold@gmail.com">email</a>. I will try to get back
+        to you quickly.</p>
+    </article>
+    <aside>
+        <img src="contact.jpg" alt="Contact" width="480" />
+    </aside>
+</page>

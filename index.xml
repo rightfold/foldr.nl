@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<!DOCTYPE page [
+    <!ENTITY eacute "é">
+]>
+<page id="about">
+    <article>
+        <p>Hi, I am Chlo&eacute;, an Utrecht-based backend developer.</p>
+
+        <p>My interest lies in compilers,
+        <abbr title="embedded domain specific language">EDSL</abbr>
+        design, interpreters, relational databases, and task scheduling. I am
+        very familiar with D, Haskell, PostgreSQL, and Rust, to name a few.
+        As long as it has a type checker, the tool and I can probably get
+        along!</p>
+    </article>
+    <aside>
+        <img src="about.jpg" alt="About" width="480" />
+    </aside>
+</page>
