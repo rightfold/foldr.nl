@@ -4,14 +4,16 @@
 ]>
 <page id="about">
     <article>
-        <p>Hi, I am Chlo&eacute;, an Utrecht-based backend developer.</p>
+        <p>Hi, I am Chlo&eacute;, an Utrecht-based software developer.</p>
 
-        <p>My interest lies in compilers,
-        <abbr title="embedded domain specific language">EDSL</abbr>
-        design, interpreters, relational databases, and task scheduling. I am
-        very familiar with D, Haskell, PostgreSQL, and Rust, to name a few.
-        As long as it has a type checker, the tool and I can probably get
-        along!</p>
+        <p>I like programming and that is why I do it. My main interests lie
+        in compiler and interpreter construction, task scheduling, and
+        ridiculing and circlejerking about silly ideas.</p>
+
+        <p>I enjoy tools that give me the freedom to express my ideas,
+        particularly D and Perl 6. My favorite text editor is Visual Studio
+        Code. My workstation is a Dell XPS running NixOS GNU/Linux and I am a
+        vivid Nix user.</p>
     </article>
     <aside>
         <img src="about.jpg" alt="About" width="480" />
